@@ -3,7 +3,7 @@ A simple client for authenticating and using the github API with PHP.
 
 ## Requirements
 1. Composer
-2. PHP 5.6 (havn't tested other versions)
+2. PHP 5.6 (haven't tested other versions)
 
 ## Installation (Terminal)
 ```
