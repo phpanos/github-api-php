@@ -46,16 +46,6 @@ class HttpClient implements \Phpanos\Github\HttpClientInterface
         return $this->makeRequest($url, 'post');
     }
 
-    public function put($url, array $options = [])
-    {
-        return $this->makeRequest($url, CURLOPT_PUT, $options);
-    }
-
-    public function delete($url, array $options = [])
-    {
-        return $this->makeRequest($url, CURLOPT_DELETE, $options);
-    }
-
     /**
      * Set headers
      * @param  array  $headers
