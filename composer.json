@@ -1,0 +1,17 @@
+{
+    "name": "phpanos/github",
+    "keywords": ["github", "client", "api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Panagiotis Pagoulatos",
+            "email": "phpanos@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Phpanos\\Github\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
